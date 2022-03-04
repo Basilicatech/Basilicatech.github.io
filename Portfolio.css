@@ -1,0 +1,433 @@
+body{  background-color:white;
+	color: black;
+  background-blend-mode: darken;
+  font-family: cursive, times new roman, times;
+  font-type: ;
+  position:absolute;
+}
+
+
+
+
+/* for styling basilica*/
+.name{
+	background-color: #031537;
+	border-radius: 4px;
+	display: grid;
+	grid-template-columns: auto auto auto;
+	height: 80px;
+}
+
+.name1 h1{
+	height: 80px;
+	color: white; 
+	text-align: right; 
+	float: left; 
+	margin-top: 20px;
+}
+
+
+.name img{ width: 120px; 
+	   		height: 80px;
+	   		margin-top: 20px;
+			background-color: ;
+			margin-left: 10px;
+			margin-right: auto;
+			border-radius: 4px;
+
+}
+
+/*To display login modal*/
+.show-modal {
+  font-size: 1.5rem;
+  font-weight: 100;
+  border: none;
+  font-family: cursive, times new roman, times;
+  float: right;
+  height: 80px;
+  width: 80px;
+  box-shadow: 5px 5px 5px  white;
+  margin: 20px 0px 0px 0px;
+  background-color:  #08317d;
+  color: rgb(241, 241, 241);
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+/*The modal itself...containing login details*/
+.modal {
+  position: absolute;
+  top: 25%;
+  left: 32%;
+  transform: translate(-10%, -50%);
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  max-width: 500px;
+  background-color: white;
+  padding: 4rem;
+  border-radius: 5px;
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+  z-index: 10;
+  text-align: center;
+}
+
+.modal h1 {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+}
+
+p {
+  font-size: 1.1rem;
+}
+a {
+  text-decoration: none;
+  color: rgb(2, 0, 145);
+}
+
+form input,
+form button {
+  display: block;
+  width: 100%;
+  margin: 1.3rem 0;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  padding: 1rem;
+  font-size: 1.1rem;
+}
+
+form input {
+  box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px 
+  #ffffff73;
+}
+
+form button {
+  background-color: rgb(2, 0, 145);
+  color: #fff;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(3px);
+  z-index: 5;
+}
+
+.close-modal {
+  position: absolute;
+  top: 0.8rem;
+  right: 1.3rem;
+  font-size: 2.5rem;
+  color: #333;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+ /* CLASS TO HIDE MODAL */
+.hidden {
+  display:none;
+}
+
+
+
+
+
+
+
+
+.topnav{ 
+   overflow: hidden;
+   background-color:  #031537;
+   border-radius: 4px;
+   padding:5px;
+ }
+ 
+ 
+ .topnav a {
+   float:left;
+   color: #f2f2f2;
+   text-align: center;
+   padding: 10px 12px 12px 12px  ;
+   font-size: 15px;
+   text-decoration: none;
+   
+ }
+
+ 
+ .topnav a:hover{
+   background-color:#ddd ;
+   color: yellow;
+   border-radius: 4px;
+ }
+ 
+ .topnav a.active{
+   background-color: #08317d;
+   color: yellow;
+   border-radius: 4px;
+ }
+ 
+ /*Style the dropdown*/
+ 
+ .dropdown{
+   float: left;
+   overflow: hidden;
+ }
+ 
+ /*Styling the dropbtn*/
+ .dropdown .dropbtn{
+   font-size: 16px;
+   border: none;
+   outline: none;
+   color: white;
+   background-color: inherit;
+   font-family: inherit;
+ }
+ 
+ /* To hide drop down content*/
+ .dropdown-content{
+   display: none;
+   position: absolute;
+   background-color: #f9f9f9;
+   min-width: 100px;
+   box-shadow: 8px 8px 16px 0px rgba(0,0,0,0.2)
+   z-index: 1;
+   border-radius: 4px;
+   margin-right: 8px;
+ }
+ /*Used to display drop down content when user hovers over it*/
+ .dropdown:hover .dropdown-content{
+   display: block;
+ }
+
+/*To add a grey background-color to the dropdown when a user hovers over it*/
+.dropdown-content a:hover{
+  background-color: #08204d;
+}
+
+/*Styling links inside the dropdown menu*/
+.dropdown-content a{
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  border-radius: 4px;
+ 
+}
+
+
+
+div {background-color: ;
+  color: black;
+  padding:0px 5px 5px;
+}
+ 
+ 
+
+footer{ 
+   position: static;
+   bottom:0;
+   left: 0;
+   width:100%;
+   text-align: center;
+   background-color: #031537;
+   border-radius: 4px;
+   
+ }
+ 
+ 
+
+ .footer{
+  display: grid;
+  grid-template-columns: auto;
+}
+
+.footer_item{
+}
+
+ 
+button {
+   border-radius:4px;
+   margin-right: 10px;
+ }
+ 
+a{ 
+   text-decoration: none;
+ }
+ 
+ hr {
+ 	width: 50%
+ }
+ 
+ .copyright {
+   background-color: #031537;
+   border-radius: 4px;
+   color: white;
+   
+ }
+ 
+ /*Used to style the table containing skills*/
+ td{
+   padding: 4px 10px 5px 35px ;
+   height: 10px;
+ }
+
+ /*tO Add grid*/
+
+.grid-container{
+	display: grid;
+	grid-column-gap: 10px;
+	grid-gap: 10px;
+	background-color:;
+	grid-template-columns: auto auto auto ;
+	padding: 50px;
+	border-radius: 3px;
+
+}
+
+.grid-item{
+	background-color: ;
+	padding: 20px;
+	font-size: 30px;
+	text-align: center;
+	border: 1px solid rgba(0, 0, 0, 0.8);
+	grid-gap: 10px;
+	border-radius: 6px;
+	box-shadow: 1px 2px 6px 2px rgba(0,0,0,1);
+}
+
+/*this is the grid for logo and login button*/
+.grid-item1{
+	font-size: 20px;
+	text-align: center;
+	grid-gap: 2px;
+	border-radius: 6px;
+}
+
+
+.align{
+	position: absolute;
+	right: 0px;
+	width: 300px;
+}
+
+p{
+	text-align: left;
+}
+/* use to change background color on small screens and also to make the grid to be a single column*/
+@media only screen and (max-width: 600px){
+	body{background-color: ;
+		color:;}
+	.grid-container{display: grid;
+	grid-column-gap: 10px;
+	grid-gap: 10px;
+	background-color: ;
+	grid-template-columns: auto;
+	padding: 50px;
+	border-radius: 3px;
+	}
+
+	.show-modal {
+  font-size: 1.5rem;
+  font-weight: 100;
+  border: none;
+  font-family: cursive, times new roman, times;
+  float: right;
+  height: 80px;
+  width: 80px;
+  box-shadow: 5px 5px 5px  white;
+  margin: 20px 0px 0px 0px;
+  background-color:  #08317d;
+  color: rgb(241, 241, 241);
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+	.modal {
+  position: absolute;
+  top: 15%;
+  left: 12%;
+  transform: translate(-10%, -50%);
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  max-width: 500px;
+  background-color: white;
+  padding: 4rem;
+  border-radius: 5px;
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+  z-index: 10;
+  text-align: center;
+}
+
+
+.modal h1 {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+}
+
+p {
+  font-size: 1.1rem;
+}
+a {
+  text-decoration: none;
+  color: rgb(2, 0, 145);
+}
+
+form input,
+form button {
+  display: block;
+  width: 100%;
+  margin: 1.3rem 0;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  padding: 1rem;
+  font-size: 1.1rem;
+}
+
+form input {
+  box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px 
+  #ffffff73;
+}
+
+form button {
+  background-color: rgb(2, 0, 145);
+  color: #fff;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(3px);
+  z-index: 5;
+}
+
+.close-modal {
+  position: absolute;
+  top: 0.8rem;
+  right: 1.3rem;
+  font-size: 2.5rem;
+  color: #333;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+/* CLASS TO HIDE MODAL */
+.hidden {
+  display:none;
+}
+ 
+
+}
