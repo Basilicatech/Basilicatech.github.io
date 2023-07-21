@@ -172,7 +172,10 @@ Mobile View Design starts here
   grid-gap: 10px;
   grid-template-columns: auto;
   padding: 50px;
-  border-radius: 3px;}
+  border-radius: 3px;
+  width: 100%;
+  height: 100%;
+}
 
   /*div {background-color: black;
   color: white;
